@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "test-Dashboard": "cypress run --record --key 73cccc40-0d23-467e-a28e-80f3b7569a60",
+    "test-Chrome": "node_modules/.bin/cypress run --browser chrome",
+    "test-Firefox": "node_modules/.bin/cypress run --browser firefox",
+    "test-Edge": "node_modules/.bin/cypress run --browser edge",
+    "test-RunSingleTest": "node_modules/.bin/cypress run --browser chrome Cypress/cypress/integration/examples/HandlingUIElements.js",
+    "runtests": "npm run test --pwd"
+
+  },
+  "keywords": [
+    "venkat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.1.0"
+  }
+}
