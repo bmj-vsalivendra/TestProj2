@@ -11,15 +11,6 @@ describe('Login Suite', () => {
         cy.get('#product_enteredQuantity_4').clear().type('2');
         cy.get('#add-to-cart-button-4').click();
         cy.get('.cart-label').click();
-        cy.get('#termsofservice').click();
-        cy.get('#checkout').click();
-
-
-
-
-
-
-
 
         // cy.get('.ico-login').click();
         // cy.get('#Email').type('Email');
